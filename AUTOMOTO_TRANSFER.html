@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<title>AUTOMOTO TRANSFER</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-red">Zatvori
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="https://bestsellingcarsblog.com/" class="w3-bar-item w3-button">Best selling cars</a>
+  <a href="https://www.onlyrevo.com/" class="w3-bar-item w3-button">Revo</a>
+  <a href="https://www.hks-power.co.jp/en/index.html" class="w3-bar-item w3-button">Hks</a>
+  <a href="https://www.recaro-automotive.com/en/" class="w3-bar-item w3-button">Recaro</a>
+  <a href="https://axcentive.com/carcare/" class="w3-bar-item w3-button">Car detailing</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-red"><i class="fa fa-home w3-margin-right"></i>AUTOMOTO TRANSFER</a>
+  <a href="#team" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Tim</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Naš posao</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Cijena</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Kontakt</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Više <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="https://www.mobile.de/" class="w3-bar-item w3-button">Mobile.de</a>
+      <a href="https://www.njuskalo.hr/" class="w3-bar-item w3-button">Njuškalo</a>
+      <a href="https://www.gabrek-tuning.com/system/usluge/dorada-automobila/" class="w3-bar-item w3-button">Gabrek tunning</a>
+    </div>
+  </div>
+  <a href="https://www.google.hr/" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-teal" title="Search"><i class="fa fa-search"></i></a>
+ </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Tim</a>
+    <a href="#work" class="w3-bar-item w3-button">Naši proizvodi</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Cijena</a>
+    <a href="#contact" class="w3-bar-item w3-button">Kontakt</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+ <img src="m5_2.jpg" alt="boat" style="width:100%;min-height:350px;max-height:900px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-red" title="Go To W3.CSS">AUTOMOTO TRANSFER</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-red w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-red w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>Na ovoj stranici ćete nauciti više o našim uslugama i timu</h4>
+      <h5>Zajedno je bolje  <i class="fa fa-smile-o"></i></h5>
+    </header>
+    <div class="w3-container">
+      <p>Ugodan dan vam želimo...</p>
+      <p>Za više informacija o željenim automobilima preporučujemo <a class="w3-text-red" href="https://www.carwow.co.uk/">Carwow</a>. </p>
+    </div>
+    <footer class="w3-container w3-red">
+      <p>AUTOMOTO TRANSFER</p>
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team">
+<h2>NAŠ TIM</h2>
+
+<div class="w3-row"><br>
+
+<div class="w3-quarter">
+  
+  <h3>Davor Dretar</h3>
+  <p>Vozač kamiona</p>
+</div>
+
+<div class="w3-quarter">
+  
+  <h3>Bato Švec</h3>
+  <p>Vozač kamiona</p>
+</div>
+
+<div class="w3-quarter">
+  
+  <h3>Petar Šimunić</h3>
+  <p>Auto mehaničar i procjenitelj vrijednosti vozila</p>
+</div>
+
+<div class="w3-quarter">
+  
+  <h3>Juraj Poljak</h3>
+  <p>Direktor</p>
+</div>
+
+</div>
+</div>
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Naš posao</h2>
+<p>Naš cilj je vama omogučiti kupnju automobila ili motocikla o kojima ste sanjali. To možemo jedino postići uvozom tih vozila iz neke druge zemlje, države. Naprimjer, novi Golf mk7 u Njemačkoj košta 10000€ a u RH 15000€. Naš tim vam želi omogućiti cijene sa kojima ste zadovoljni. </p>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-red">
+  <img src="golf-600x400.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Kupac 1</h3>
+  <h4>Uzeo je Basic opciju</h4>
+  <p>S basic opcijom je dobio uvoz automobila po želji bez registracije i bez police osiguranj i bez ikakvih usluga za unapređivanje i mapiranje vozila.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-red">
+  <img src="lambo.jpg" alt="Lights" style="width:100%">
+  <div class="w3-container">
+  <h3>Kupac 2</h3>
+  <h4>Uzeo je Premium opciju</h4>
+  <p>S premium opcijom je dobio uvoz automobila po želji sa registracije i sa  policom osiguranj ali i sa uslugama za unapređivanje i mapiranje vozila.</p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-red">
+  <img src="bmw.jpg" alt="Mountains" style="width:100%">
+  <div class="w3-container">
+  <h3>Kupac 3</h3>
+  <h4>Uzeo je Pro opciju</h4>
+  <p>S pro opcijom je dobio uvoz automobila po želji sa registracije i sa  policom osiguranj ali bez ikakvih usluga za unapređivanje i mapiranje vozila.</p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+<!-- Container -->
+<div class="w3-container" style="position:relative">
+  <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-red"
+  style="position:absolute;top:-28px;right:24px">+</a>
+</div>
+
+<!-- Pricing Row -->
+<div class="w3-row-padding w3-center w3-padding-64" id="pricing">
+    <h2>Cijena</h2>
+    <p>Odaberite cijenu koja vam odgovara.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Basic</p>
+        </li>
+        <li class="w3-padding-16">Automobil po želji</li>
+        <li class="w3-padding-16"><b>Bez</b> Registracije</li>
+        <li class="w3-padding-16"><b>Bez</b> Police osiguranja</li>
+        <li class="w3-padding-16"><b>Bez</b> ikakvih dodatnih usluga</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 1000</h2>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large"><i class="fa fa-check"></i> Kupi</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme-l2">
+          <p class="w3-xlarge">Pro</p>
+        </li>
+        <li class="w3-padding-16">Automobil po želji</li>
+        <li class="w3-padding-16"><b>Sa</b> Registracije</li>
+        <li class="w3-padding-16"><b>Sa</b> Policom osiguranja</li>
+        <li class="w3-padding-16"><b>Bez</b> ikakvih dodatnih usluga</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 3000</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large"><i class="fa fa-check"></i> Kupi</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-hover-shadow">
+        <li class="w3-theme">
+          <p class="w3-xlarge">Premium</p>
+        </li>
+        <li class="w3-padding-16">Automobil po želji</li>
+        <li class="w3-padding-16"><b>Sa</b> Registracije</li>
+        <li class="w3-padding-16"><b>Sa</b> Policom osiguranja</li>
+        <li class="w3-padding-16"><b>Sa</b> dodatnim usluga</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-eur"></i> 5000</h2>
+          <span class="w3-opacity">per month</span>
+        </li>
+        <li class="w3-theme-l5 w3-padding-24">
+          <button class="w3-button w3-red w3-padding-large"><i class="fa fa-check"></i> Kupi</button>
+        </li>
+      </ul>
+    </div>
+</div>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-red w3-bottombar">Kontaktirajte nas</span></div>
+      <h3>Adresa</h3>
+      <p>Dođite na razgovor i na piće :) </p>
+      <p><i class="fa fa-map-marker w3-text-red w3-xlarge"></i>  Brezinska ul</p>
+      <p><i class="fa fa-phone w3-text-red w3-xlarge"></i>  +385 913002911</p>
+      <p><i class="fa fa-envelope-o w3-text-red w3-xlarge"></i>  automoto.transfer@gmail.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Ime</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Poruka</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>Sviđa mi se!</label>
+      <button type="submit" class="w3-button w3-right w3-theme">Send</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="map.jpg" class="w3-image w3-greyscale-min" style="width:100%;">
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
+  <h4>Zapratite nas</h4>
+  <a class="w3-button w3-large w3-red" href="https://www.facebook.com/" title="Facebook"><i class="fa fa-facebook"></i></a>
+  <a class="w3-button w3-large w3-red" href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter"></i></a>
+  
+  <a class="w3-button w3-large w3-red" href="https://www.instagram.com/" title="Google +"><i class="fa fa-instagram"></i></a>
+  
+ 
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-red w3-hide-small">Na početak</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
